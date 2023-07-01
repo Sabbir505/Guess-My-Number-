@@ -1,0 +1,108 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat:wght@500&display=swap');
+
+*{
+    padding: 0;margin: 0;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(23, 66, 223, 0.308);
+    position: relative;
+}
+.box{
+    height: 95%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    box-shadow: 5px 5px 25px green;
+    position: absolute;
+}
+.box-1{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-2{
+    height: 40%;
+    width: 80%;
+    color: white;
+    background-color: black;
+    color: white;
+    border: 2px solid green;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px red;
+}
+.box-2 p{
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+h2{
+    margin: 30px 0px;
+}
+.input{
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.input input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding-left: 15px;
+    background: transparent;
+    color: white;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+.input h4{
+    padding: 10px 0px;
+    padding-left: 10px;
+}
+.output{
+    margin: 5px 0px;
+}
+.output input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding-left: 15px;
+    background: transparent;
+    color: white;
+    font-weight: 800;
+}
+button{
+    height: 25px;
+    width: 100px;
+    background: rgb(4, 247, 4);
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: 3px 3px 20px red;
+}
+button:hover{
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
